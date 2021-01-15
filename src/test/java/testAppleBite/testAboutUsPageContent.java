@@ -20,7 +20,8 @@ public class testAboutUsPageContent {
 	public void beforeMethod() {
 		//Access and launch chrome browser		
 		System.setProperty("webdriver.chrome.driver", "/usr/share/maven/chromedriver");
-		ChromeOptions options = new ChromeOptions();				
+		ChromeOptions options = new ChromeOptions();
+		options.addArguments("--headless");
 		driver = new ChromeDriver(options);		
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
