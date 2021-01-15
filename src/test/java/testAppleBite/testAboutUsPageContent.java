@@ -44,6 +44,7 @@ public class testAboutUsPageContent {
 		else {
 			System.out.println("About us page validation failed");
 		}
+		Thread.sleep(120);
 	}
 
 	@AfterMethod
