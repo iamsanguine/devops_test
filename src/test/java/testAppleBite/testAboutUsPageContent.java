@@ -19,7 +19,7 @@ public class testAboutUsPageContent {
 	@BeforeMethod
 	public void beforeMethod() {
 		//Access and launch chrome browser		
-		System.setProperty("webdriver.chrome.driver", "/usr/share/maven/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--headless");
 		driver = new ChromeDriver(options);		
