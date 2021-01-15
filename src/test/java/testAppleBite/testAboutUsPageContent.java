@@ -21,6 +21,7 @@ public class testAboutUsPageContent {
 		//Access and launch chrome browser		
 		System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
 		ChromeOptions options = new ChromeOptions();
+		options.add_argument("--remote-debugging-port=9222");
 		options.addArguments("--headless");
 		driver = new ChromeDriver(options);		
 		driver.manage().window().maximize();
