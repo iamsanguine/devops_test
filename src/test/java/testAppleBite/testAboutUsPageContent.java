@@ -19,7 +19,7 @@ public class testAboutUsPageContent {
 	@BeforeMethod
 	public void beforeMethod() {
 		//Access and launch chrome browser		
-		System.setProperty("webdriver.chrome.driver", "chromedriver");
+		System.setProperty("webdriver.chrome.driver", "/usr/share/maven/chromedriver");
 		ChromeOptions options = new ChromeOptions();				
 		driver = new ChromeDriver(options);		
 		driver.manage().window().maximize();
