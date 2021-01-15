@@ -33,7 +33,7 @@
     <version>2.18.1</version>
     <configuration>
      <suiteXmlFiles>
-      <suiteXmlFile>testng.xml</suiteXmlFile>
+      <suiteXmlFile>testngsuite.xml</suiteXmlFile>
      </suiteXmlFiles>
     </configuration>
    </plugin>
