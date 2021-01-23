@@ -14,12 +14,12 @@ public class testAboutUsPageContent {
 
 	//To access browser
 	WebDriver driver;
-	String urlAddress = "http://ec2-18-237-252-7.us-west-2.compute.amazonaws.com:9999/index.php";
+	String urlAddress = "ec2-54-218-78-13.us-west-2.compute.amazonaws.com:8888/index.php";
 	
 	@BeforeMethod
 	public void beforeMethod() {
 		//Access and launch chrome browser		
-		System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--remote-debugging-port=9222");
 		options.addArguments("--headless");
