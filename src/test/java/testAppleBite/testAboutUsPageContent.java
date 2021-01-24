@@ -14,7 +14,7 @@ public class testAboutUsPageContent {
 
 	//To access browser
 	WebDriver driver;
-	String urlAddress = "ec2-54-218-78-13.us-west-2.compute.amazonaws.com:8888/index.php";
+	String urlAddress = "ec2-52-39-130-202.us-west-2.compute.amazonaws.com:8888/index.php";
 	
 	@BeforeMethod
 	public void beforeMethod() {
